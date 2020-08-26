@@ -1,0 +1,60 @@
+.wrap {
+  min-height: 150px;
+  max-height: 400px;
+  padding-bottom: 15px;
+  padding-left: 0;
+  overflow-y: scroll;
+}
+
+.wrap .checkbox__icon {
+  color: #356eff;
+}
+
+.wrap .delete__icon {
+  color: #ccc;
+}
+
+.item__wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 634px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 41px;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 8px;
+}
+
+.checkbox {
+  border-radius: 50%;
+}
+
+.wrap .checkbox {
+  margin-left: 0;
+}
+
+.noItems {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.noItems__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.noItems__now {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999;
+  margin: -5px;
+}

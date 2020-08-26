@@ -1,0 +1,58 @@
+.button button {
+  margin: 10px;
+}
+
+.title__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.title__button {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  height: 19px;
+  border: none;
+  background: transparent;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button span {
+  color: #356eff;
+}
+
+.selected span {
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #356eff;
+  color: #fff;
+  border-radius: 37px;
+}
+
+.selected {
+  background-color: #356eff;
+  color: #fff;
+  border-radius: 37px;
+}
+
+.button:hover span {
+  color: #fff;
+}
